@@ -5,7 +5,7 @@
       {
         "appID": "75P9B6J9MN.com.tui.tda.uk-th.dev",
         "paths": [
-          "/testpage"
+          "NOT *testpage"
         ]
       }
     ]

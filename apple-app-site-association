@@ -5,8 +5,10 @@
       {
         "appID": "75P9B6J9MN.com.tui.tda.uk-th.dev",
         "components": [
-          "/": "/testpage",
-          "comment": "Matches any URL with a path that starts with /testpage"
+          {
+            "/": "/testpage",
+            "comment": "Matches any URL with a path that starts with /testpage"
+          }
         ]
       }
     ]

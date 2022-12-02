@@ -10,11 +10,6 @@
           {
             "/": "*",
             "comment": "Matches any URL"
-          },
-          {
-            "/": "/testpage",
-            "exclude": true,
-            "comment": "Matches any URL with a path that starts with /testpage, and makes sure that it will be excluded"
           }
         ]
       }

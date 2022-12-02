@@ -5,10 +5,10 @@
     ],
     "details": [
       {
-        "appID": "75P9B6J9MN.com.tui.tda.uk-th.dev",
+        "appID": "75P9B6J9MN.com.tui.tda.de-mt.dev",
         "components": [
           {
-            "/": "/*",
+            "/": "*",
             "comment": "Matches any URL"
           }
         ]

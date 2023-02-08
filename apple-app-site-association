@@ -6,8 +6,17 @@
         "appID": "75P9B6J9MN.com.tui.tda.de-mt.dev",
         "components": [
           {
-            "/": "/*",
-            "comment": "Matches any URL"
+            "/": "/index",
+            "comment": "Matches /index URL"
+          }
+        ]
+      },
+      {
+        "appID": "75P9B6J9MN.com.tui.tda.de-mt.dev",
+        "components": [
+          {
+            "/": "/testpage",
+            "comment": "Matches /testpage URL"
           }
         ]
       }

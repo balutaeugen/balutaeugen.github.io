@@ -1,0 +1,80 @@
+{
+  "applinks": {
+    "apps": [],
+    "substitutionVariables": {
+      "hotels": [
+        "Mallorca/1197",
+        "Türkei/1040",
+        "Kreta/1177",
+        "Fuerteventura/1118",
+        "Ägypten/1001",
+        "Malediven/1196",
+        "Teneriffa/1296",
+        "Griechische-Inseln/1014"
+      ],
+      "regions": [
+        "beliebteste-Reiseziele/1327",
+        "Balearen/1003",
+        "Griechenland-Inseln/1014"
+      ]
+    },
+    "details": [
+      {
+        "appID": "SEMXTC8MV2.de.tui.tuicom",
+        "components": [
+          {
+            "/": "/pauschalreisen/suchen/regionen/beliebteste-Reiseziele/1327/",
+            "comment": "TUI holiday search for popular destinations"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/Balearen/1003/",
+            "comment": "TUI holiday search for the Balearic Islands"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/Griechenland-Inseln/1014/",
+            "comment": "TUI holiday search for the Greek Islands"
+          },
+          {
+            "/": "/pauschalreisen/suchen/*",
+            "comment": "Denies any URL path starting with /pauschalreisen/suchen/",
+            "exclude": true
+          },
+          {
+            "/": "/pauschalreisen/*",
+            "comment": "Matches any URL path starting with /pauschalreisen/"
+          }
+        ]
+      },
+      {
+        "appID": "75P9B6J9MN.com.tui.tda.de-tc.dev",
+        "components": [
+          {
+            "/": "path/double-path/test"
+          },
+          {
+            "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
+            "comment": "Link to a few hotels. Check hotels in the substitutionVariables",
+            "percentEncoded": false
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/$(regions)/",
+            "comment": "TUI holiday search for the Greek Islands"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/",
+            "comment": "Link to holiday search by regions"
+          },
+          {
+            "/": "/pauschalreisen/suchen/*",
+            "comment": "Denies any URL path starting with /pauschalreisen/suchen/",
+            "exclude": true
+          },
+          {
+            "/": "/pauschalreisen/*",
+            "comment": "Matches any URL path starting with /pauschalreisen/"
+          }
+        ]
+      }
+    ]
+  }
+}

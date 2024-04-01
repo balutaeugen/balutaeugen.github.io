@@ -65,6 +65,9 @@
             "comment": "Link to holiday search by regions"
           },
           {
+            "/": "/pauschalreisen/suchen/shouldwork"
+          },
+          {
             "/": "/pauschalreisen/suchen/*",
             "comment": "Denies any URL path starting with /pauschalreisen/suchen/",
             "exclude": true
@@ -72,9 +75,6 @@
           {
             "/": "/pauschalreisen/*",
             "comment": "Matches any URL path starting with /pauschalreisen/"
-          },
-          {
-            "/": "/pauschalreisen/suchen/shouldwork"
           }
         ]
       }

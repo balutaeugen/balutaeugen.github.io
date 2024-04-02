@@ -73,6 +73,9 @@
             "exclude": true
           },
           {
+            "/": "/pauschalreisen/suchen/shouldnotwork"
+          },
+          {
             "/": "/pauschalreisen/*",
             "comment": "Matches any URL path starting with /pauschalreisen/"
           }

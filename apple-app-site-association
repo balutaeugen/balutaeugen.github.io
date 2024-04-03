@@ -394,30 +394,30 @@
             "/": "/pauschalreisen/spanien/teneriffa/"
           },
           {
-            "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
-            "comment": "Open offers based on the offers substitution variable"
-          },
-          {
             "/": "/pauschalreisen/suchen/angebote/$(dev_offers)/offer/",
             "comment": "Open offers based on the offers substitution variable"
           },
           {
-            "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
-            "comment": "Open hotels based on the hotels substitution variable"
+            "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
+            "comment": "Open offers based on the offers substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/hotels/$(dev_hotels)/list/",
             "comment": "Open hotels based on the hotels substitution variable"
           },
           {
+            "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
+            "comment": "Open hotels based on the hotels substitution variable"
+          },
+          {
             "/": "/pauschalreisen/suchen/regionen/"
           },
           {
-            "/": "/pauschalreisen/suchen/regionen/$(regions)/",
+            "/": "/pauschalreisen/suchen/regionen/$(dev_regions)/",
             "comment": "Open regions based on the regions substitution variable"
           },
           {
-            "/": "/pauschalreisen/suchen/regionen/$(dev_regions)/",
+            "/": "/pauschalreisen/suchen/regionen/$(regions)/",
             "comment": "Open regions based on the regions substitution variable"
           },
           {

@@ -1,47 +1,55 @@
 {
   "applinks": {
     "apps": [],
-    "substitutionVariables": {
-      "hotels": [
-        "Mallorca/1197",
-        "Türkei/1040",
-        "Kreta/1177",
-        "Fuerteventura/1118",
-        "Ägypten/1001",
-        "Malediven/1196",
-        "Teneriffa/1296",
-        "Griechische-Inseln/1014"
-      ],
-      "regions": [
-        "beliebteste-Reiseziele/1327",
-        "Balearen/1003",
-        "Griechenland-Inseln/1014"
-      ]
-    },
     "details": [
       {
         "appID": "SEMXTC8MV2.de.tui.tuicom",
         "components": [
           {
-            "/": "/pauschalreisen/suchen/regionen/beliebteste-Reiseziele/1327/",
-            "comment": "TUI holiday search for popular destinations"
+            "/": "/"
           },
           {
-            "/": "/pauschalreisen/suchen/regionen/Balearen/1003/",
-            "comment": "TUI holiday search for the Balearic Islands"
+            "/": "/aktionscode/"
           },
           {
-            "/": "/pauschalreisen/suchen/regionen/Griechenland-Inseln/1014/",
-            "comment": "TUI holiday search for the Greek Islands"
+            "/": "/flug/"
+          },
+          {
+            "/": "/flug/tuifly/"
+          },
+          {
+            "/": "/flug/webcheckin/select"
+          },
+          {
+            "/": "/hotel/suchen/hotels/Kroatien/1022/list/"
+          },
+          {
+            "/": "/last-minute/"
+          },
+          {
+            "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
+            "comment": "Open offers based on the offers substitution variable"
+          },
+          {
+            "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
+            "comment": "Open hotels based on the hotels substitution variable"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/$(regions)/",
+            "comment": "Open regions based on the regions substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/*",
-            "comment": "Denies any URL path starting with /pauschalreisen/suchen/",
             "exclude": true
           },
           {
-            "/": "/pauschalreisen/*",
-            "comment": "Matches any URL path starting with /pauschalreisen/"
+            "/": "/pauschalreisen/*"
+          },
+          {
+            "/": "/suchen/angebote/Delphin_Imperial/240020/offer/"
           }
         ]
       },
@@ -49,41 +57,431 @@
         "appID": "75P9B6J9MN.com.tui.tda.de-tc.dev",
         "components": [
           {
-            "/": "path/double-path/test"
+            "/": "/"
+          },
+          {
+            "/": "/aktionscode/"
+          },
+          {
+            "/": "/apps/"
+          },
+          {
+            "/": "/blog/die-10-schoensten-straende-italiens/"
+          },
+          {
+            "/": "/blog/geheimtipp-azoren-inseln-wir-stellen-euch-die-9-inseln-vor/"
+          },
+          {
+            "/": "/blog/handgepaeck-bei-tui-fly-trolley-handtasche-oder-doch-rucksack/"
+          },
+          {
+            "/": "/blog/medikamentenmitnahme-im-flugzeug-was-ist-erlaubt-und-was-nicht/"
+          },
+          {
+            "/": "/blog/riu-neueroeffnungen-und-renovierungen/"
+          },
+          {
+            "/": "/blog/verbotene-souvenirs-was-darf-ich-mit-zurueckbringen-und-was-auf-keinen-fall/"
+          },
+          {
+            "/": "/blog/wohin-im-herbst-die-10-besten-reiseziele-fuer-oktober/"
+          },
+          {
+            "/": "/checkout/"
+          },
+          {
+            "/": "/coupon/"
+          },
+          {
+            "/": "/deals/"
+          },
+          {
+            "/": "/default/index/page/page-name/reservation-accommodation-details"
+          },
+          {
+            "/": "/default/index/page/page-name/reservation-documents"
+          },
+          {
+            "/": "/default/index/page/page-name/reservation-transport-details"
+          },
+          {
+            "/": "/documents"
+          },
+          {
+            "/": "/documents-wo-login"
+          },
+          {
+            "/": "/flug/"
+          },
+          {
+            "/": "/flug/city-angebote/"
+          },
+          {
+            "/": "/flug/duesseldorf-dus-istanbul-atatuerk-ist/"
+          },
+          {
+            "/": "/flug/flugauswahl/"
+          },
+          {
+            "/": "/flug/flugbuchung/"
+          },
+          {
+            "/": "/flug/mallorca/"
+          },
+          {
+            "/": "/flug/thailand/"
+          },
+          {
+            "/": "/flug/tuerkei/"
+          },
+          {
+            "/": "/flug/tui-fly-jubilaeum/"
+          },
+          {
+            "/": "/flug/tuifly/"
+          },
+          {
+            "/": "/flug/usa/"
+          },
+          {
+            "/": "/flug/webcheckin/"
+          },
+          {
+            "/": "/flug/webcheckin/itinerary"
+          },
+          {
+            "/": "/flug/webcheckin/Login"
+          },
+          {
+            "/": "/flug/webcheckin/select"
+          },
+          {
+            "/": "/gewinnspiel/"
+          },
+          {
+            "/": "/hotel/"
+          },
+          {
+            "/": "/hotel/checkout/"
+          },
+          {
+            "/": "/hotel/suchen/hotels/Deutschland/1006/list/"
+          },
+          {
+            "/": "/hotel/suchen/hotels/Italien,+Malta/1016/list/"
+          },
+          {
+            "/": "/hotel/suchen/hotels/Kroatien/1022/list/"
+          },
+          {
+            "/": "/hotel/suchen/hotels/Österreich/1029/list/"
+          },
+          {
+            "/": "/index/page/page-name/registration"
+          },
+          {
+            "/": "/kinderfestpreis/"
+          },
+          {
+            "/": "/kurzurlaub/"
+          },
+          {
+            "/": "/kurzurlaub/mallorca/"
+          },
+          {
+            "/": "/last-minute/"
+          },
+          {
+            "/": "/last-minute/super-last-minute/"
+          },
+          {
+            "/": "/login-registration"
+          },
+          {
+            "/": "/merkzettel/"
+          },
+          {
+            "/": "/pauschalreisen/aegypten/"
+          },
+          {
+            "/": "/pauschalreisen/aegypten/hurghada/"
+          },
+          {
+            "/": "/pauschalreisen/albanien/"
+          },
+          {
+            "/": "/pauschalreisen/all-inclusive/"
+          },
+          {
+            "/": "/pauschalreisen/allinclusive/"
+          },
+          {
+            "/": "/pauschalreisen/checkout/"
+          },
+          {
+            "/": "/pauschalreisen/familienurlaub/"
+          },
+          {
+            "/": "/pauschalreisen/fruehbucher/"
+          },
+          {
+            "/": "/pauschalreisen/griechenland/"
+          },
+          {
+            "/": "/pauschalreisen/griechenland/kreta/"
+          },
+          {
+            "/": "/pauschalreisen/island/"
+          },
+          {
+            "/": "/pauschalreisen/kap-verde/"
+          },
+          {
+            "/": "/pauschalreisen/kroatien/"
+          },
+          {
+            "/": "/pauschalreisen/malediven/"
+          },
+          {
+            "/": "/pauschalreisen/paarurlaub/"
+          },
+          {
+            "/": "/pauschalreisen/sommerurlaub/"
+          },
+          {
+            "/": "/pauschalreisen/spanien/mallorca/"
+          },
+          {
+            "/": "/pauschalreisen/spanien/teneriffa/"
+          },
+          {
+            "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
+            "comment": "Open offers based on the offers substitution variable"
+          },
+          {
+            "/": "/pauschalreisen/suchen/angebote/$(dev_offers)/offer/",
+            "comment": "Open offers based on the offers substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
-            "comment": "Link to a few hotels. Check hotels in the substitutionVariables",
-            "percentEncoded": false
+            "comment": "Open hotels based on the hotels substitution variable"
+          },
+          {
+            "/": "/pauschalreisen/suchen/hotels/$(dev_hotels)/list/",
+            "comment": "Open hotels based on the hotels substitution variable"
+          },
+          {
+            "/": "/pauschalreisen/suchen/regionen/"
           },
           {
             "/": "/pauschalreisen/suchen/regionen/$(regions)/",
-            "comment": "TUI holiday search for the Greek Islands"
+            "comment": "Open regions based on the regions substitution variable"
           },
           {
-            "/": "/pauschalreisen/suchen/regionen/",
-            "comment": "Link to holiday search by regions"
-          },
-          {
-            "/": "/pauschalreisen/suchen/shouldwork"
-          },
-          {
-            "/": "/pauschalreisen/suchen/shouldwork/2"
+            "/": "/pauschalreisen/suchen/regionen/$(dev_regions)/",
+            "comment": "Open regions based on the regions substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/*",
-            "comment": "Denies any URL path starting with /pauschalreisen/suchen/",
             "exclude": true
           },
           {
-            "/": "/pauschalreisen/suchen/shouldnotwork"
+            "/": "/pauschalreisen/tuerkei/"
           },
           {
-            "/": "/pauschalreisen/*",
-            "comment": "Matches any URL path starting with /pauschalreisen/"
+            "/": "/pauschalreisen/usa/hawaii/"
+          },
+          {
+            "/": "/pauschalreisen/vereinigte-arabische-emirate/dubai/"
+          },
+          {
+            "/": "/pauschalreisen/*"
+          },
+          {
+            "/": "/riu/"
+          },
+          {
+            "/": "/silvester/"
+          },
+          {
+            "/": "/staedtereisen/"
+          },
+          {
+            "/": "/strandhotels/"
+          },
+          {
+            "/": "/suchen/angebote/Aqua Fantasy Aquapark Hotel & Spa/60873/offer/"
+          },
+          {
+            "/": "/suchen/angebote/Delphin_Imperial/240020/offer/"
+          },
+          {
+            "/": "/suchen/angebote/Hotel Lyttos Beach/20525/offer/"
+          },
+          {
+            "/": "/tui-blue/"
+          },
+          {
+            "/": "/tui-friday-sale/"
+          },
+          {
+            "/": "/tui-info-corona-virus/"
+          },
+          {
+            "/": "/tui-kids-club/"
+          },
+          {
+            "/": "/tui-magic-life/"
+          },
+          {
+            "/": "/weihnachts-memory/"
+          },
+          {
+            "/": "/wundervolle-hotels/"
           }
         ]
       }
-    ]
+    ],
+    "substitutionVariables": {
+      "offers": [
+        "Albatros-Sea-World-Marsa-Alam/27889",
+        "Anemos-Luxury-Grand-Resort/434207",
+        "Club-Jandia-Princess/2619",
+        "Club-Marvy/5809",
+        "Granada-Luxury-Belek/551258",
+        "Hotel-Riu-Palace-Tres-Islas/2589",
+        "Hotel-Riu-Touareg/231741",
+        "Pabisa-Bali-Tower/20407",
+        "Stella-Island-Luxury-Resort-and-Spa/576794",
+        "TUI-BLUE-Crystal-Bay/12",
+        "TUI-BLUE-Riu-Calypso/2609",
+        "TUI-BLUE-Xanthe/39670",
+        "TUI-KIDS-CLUB-Felicia-Village/34940",
+        "TUI-KIDS-CLUB-Riu-Oliva-Beach/245498",
+        "TUI-MAGIC-LIFE-Fuerteventura/28019",
+        "TUI-MAGIC-LIFE-Jacaranda/365325",
+        "TUI-MAGIC-LIFE-Masmavi/4735"
+      ],
+      "dev_offers": [
+        "Atlantica-Imperial-Resort/28703/offer/",
+        "Belek-Beach-Resort/56992/offer/",
+        "Blau-Punta-Reina-Resort/3140/offer/",
+        "Blue-Lagoon-Village/75740/offer/",
+        "Blue-Waters-Club/4866/offer/",
+        "Club-Grand-Side/4878/offer/",
+        "Delphin-Be-Grand-Resort/34938/offer/",
+        "Delphin-Imperial/240020/offer/",
+        "Diamond-Premium-Hotel-und-Spa/422816/offer/",
+        "Esperos-Village-Blue/1266/offer/",
+        "Grecotel-Kos-Imperial/28705/offer/",
+        "Grupotel-Gran-Vista-&-Spa/674842/offer/",
+        "Hotel-Golden-Beach/990/offer/",
+        "Hotel-Lyttos-Beach/20525/offer/",
+        "Hotel-Pilot-Beach-Resort/876/offer/",
+        "Hotel-Riu-Arecas/20405/offer/",
+        "Hotel-Riu-Atoll/803710/offer/",
+        "Hotel-Riu-Karamboa/102530/offer/",
+        "Hotel-Riu-Palace-Jandia/2611/offer/",
+        "Hotel-Riu-Palace-Maspalomas/2780/offer/",
+        "Hotel-Riu-Palace-Tenerife/20442/offer/",
+        "Hotel-Riu-Playa-Park/20450/offer/",
+        "Hotel-Royal-Palm-Resort-&-Spa/425030/offer/",
+        "Hotel-Side-Star-Resort/29637/offer/",
+        "Iberotel-Makadi-Beach/14560/offer/",
+        "Insotel-Hotel-Formentera-Playa/2556/offer/",
+        "Kalithea-Horizon-Royal/79882/offer/",
+        "Kirman-Hotels-Belazur-Resort-&-Spa/261571/offer/",
+        "Lindos-Princess-Beach/28518/offer/",
+        "MEGASARAY-CLUB-BELEK/4726/offer/",
+        "MELIÁ-FUERTEVENTURA/2613/offer/",
+        "Nana-Golden-Beach/840/offer/",
+        "Neptune-Luxury-Resort/741/offer/",
+        "Paloma-Oceana/4914/offer/",
+        "Regnum-Carya-Golf-&-Spa-Resort/363696/offer/",
+        "Riu-Baobab/1293167/offer/",
+        "Riu-Gran-Canaria/20422/offer/",
+        "Riu-Madeira/20439/offer/",
+        "Riu-Palace-Meloneras/20440/offer/",
+        "Riu-Paraiso-Lanzarote/3041/offer/",
+        "Riu-San-Francisco/20453/offer/",
+        "Rixos-Premium-Belek/42194/offer/",
+        "ROBINSON-JANDIA-PLAYA/20520/offer/",
+        "Sea-Side-Resort/40153/offer/",
+        "Seaden-Quality-Resort-&-Spa/12113/offer/",
+        "Servatur-Don-Miguel/2779/offer/",
+        "Sotavento-Beach-Club/5721/offer/",
+        "The-Land-of-Legends-Kingdom-Hotel/517280/offer/",
+        "TUI-BLUE-Atlantica-Marmari-Beach/729/offer/",
+        "TUI-BLUE-Belek/231754/offer/",
+        "TUI-BLUE-Cabo-Verde/546315/offer/",
+        "TUI-BLUE-Falesia/54472/offer/",
+        "TUI-BLUE-Levante/297201/offer/",
+        "TUI-BLUE-Lindos-Bay/16375/offer/",
+        "TUI-BLUE-Makadi/82366/offer/",
+        "TUI-BLUE-Palazzo-Del-Mare/135421/offer/",
+        "TUI-BLUE-Palm-Garden/53100/offer/",
+        "TUI-BLUE-Side/140227/offer/",
+        "TUI-BLUE-Suite-Princess/2802/offer/",
+        "TUI-BLUE-Victoria-Menorca/62841/offer/",
+        "TUI-BLUE-Zahara-Beach/807821/offer/",
+        "TUI-KIDS-CLUB-Cala-Mandia/3139/offer/",
+        "TUI-KIDS-CLUB-Grecotel-Casa-Marron/456/offer/",
+        "TUI-KIDS-CLUB-JAZ-Bluemarine/229480/offer/",
+        "TUI-KIDS-CLUB-Maspalomas-Princess/6438/offer/",
+        "TUI-KIDS-CLUB-Playa-Garden/19154/offer/",
+        "TUI-KIDS-CLUB-Protur-Safari/51831/offer/",
+        "TUI-MAGIC-LIFE-Africana/4072/offer/",
+        "TUI-MAGIC-LIFE-Belek/4717/offer/",
+        "TUI-MAGIC-LIFE-Kalawy/86090/offer/",
+        "TUI-MAGIC-LIFE-Marmari-Palace/39513/offer/",
+        "TUI-MAGIC-LIFE-Plimmiri/411996/offer/",
+        "TUI-MAGIC-LIFE-Sarigerme/16663/offer/",
+        "TUI-SUNEO-Green-Garden/13568/offer/",
+        "Utopia-Blu/749/offer/"
+      ],
+      "hotels": [
+        "%C3%84gypten/1001",
+        "Dubai+&+Arabische+Halbinsel/1008",
+        "Fuerteventura/1118",
+        "Gran+Canaria/1123",
+        "Gran-Canaria/1123",
+        "Griechische+Inseln/1014",
+        "Griechische-Inseln/1014",
+        "Hurghada-&-Safaga/1132",
+        "Kanarische-Inseln/1018",
+        "Korfu/1173",
+        "Kos/1175",
+        "Kreta/1177",
+        "Lanzarote/1186",
+        "Madeira/1192",
+        "Malediven/1196",
+        "Mallorca/1197",
+        "Mauritius/1206",
+        "New+York/1227",
+        "Republik+Zypern+(S%C3%BCden)/1259",
+        "Rhodos/1260",
+        "Sardinien/1271",
+        "Side-&-Alanya/1281",
+        "Spanisches+Festland/1036",
+        "T%C3%BCrkei/1040",
+        "Tansania+-+Sansibar/1294",
+        "Teneriffa/1296",
+        "Thailand/1038",
+        "Tunesien+Marokko/1039"
+      ],
+      "dev_hotels": [
+      ],
+      "regions": [
+        "%C3%84gypten/1001",
+        "Balearen/1003",
+        "beliebteste-Reiseziele/1327",
+        "Griechische-Inseln/1014",
+        "Kanarische-Inseln/1018",
+        "Kapverdische-Inseln/1333",
+        "T%C3%BCrkei/1040"
+      ],
+      "dev_regions": [
+      ]
+    }
   }
 }

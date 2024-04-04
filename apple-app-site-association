@@ -49,7 +49,8 @@
             "/": "/pauschalreisen/*"
           },
           {
-            "/": "/suchen/angebote/Delphin_Imperial/240020/offer/"
+            "/": "/suchen/angebote/$(suchen_angebote)/offer/",
+            "comment": "Open random offers based on the suchen_angebote substitution variable"
           }
         ]
       },
@@ -201,62 +202,8 @@
             "/": "/merkzettel/"
           },
           {
-            "/": "/pauschalreisen/aegypten/"
-          },
-          {
-            "/": "/pauschalreisen/aegypten/hurghada/"
-          },
-          {
-            "/": "/pauschalreisen/albanien/"
-          },
-          {
-            "/": "/pauschalreisen/all-inclusive/"
-          },
-          {
-            "/": "/pauschalreisen/allinclusive/"
-          },
-          {
-            "/": "/pauschalreisen/checkout/"
-          },
-          {
-            "/": "/pauschalreisen/familienurlaub/"
-          },
-          {
-            "/": "/pauschalreisen/fruehbucher/"
-          },
-          {
-            "/": "/pauschalreisen/griechenland/"
-          },
-          {
-            "/": "/pauschalreisen/griechenland/kreta/"
-          },
-          {
-            "/": "/pauschalreisen/island/"
-          },
-          {
-            "/": "/pauschalreisen/kap-verde/"
-          },
-          {
-            "/": "/pauschalreisen/kroatien/"
-          },
-          {
-            "/": "/pauschalreisen/malediven/"
-          },
-          {
-            "/": "/pauschalreisen/paarurlaub/"
-          },
-          {
-            "/": "/pauschalreisen/sommerurlaub/"
-          },
-          {
-            "/": "/pauschalreisen/spanien/mallorca/"
-          },
-          {
-            "/": "/pauschalreisen/spanien/teneriffa/"
-          },
-          {
             "/": "/pauschalreisen/suchen/angebote/$(dev_offers)/offer/",
-            "comment": "Open offers based on the offers substitution variable"
+            "comment": "Open offers based on the dev_offers substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
@@ -264,7 +211,7 @@
           },
           {
             "/": "/pauschalreisen/suchen/hotels/$(dev_hotels)/list/",
-            "comment": "Open hotels based on the hotels substitution variable"
+            "comment": "Open hotels based on the dev_hotels substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
@@ -275,7 +222,7 @@
           },
           {
             "/": "/pauschalreisen/suchen/regionen/$(dev_regions)/",
-            "comment": "Open regions based on the regions substitution variable"
+            "comment": "Open regions based on the dev_regions substitution variable"
           },
           {
             "/": "/pauschalreisen/suchen/regionen/$(regions)/",
@@ -286,13 +233,12 @@
             "exclude": true
           },
           {
-            "/": "/pauschalreisen/tuerkei/"
+            "/": "/pauschalreisen/$(dev_packages)/",
+            "comment": "Open regions based on the dev_packages substitution variable"
           },
           {
-            "/": "/pauschalreisen/usa/hawaii/"
-          },
-          {
-            "/": "/pauschalreisen/vereinigte-arabische-emirate/dubai/"
+            "/": "/pauschalreisen/$(packages)/",
+            "comment": "Open packages based on the packages substitution variable"
           },
           {
             "/": "/pauschalreisen/*"
@@ -310,13 +256,12 @@
             "/": "/strandhotels/"
           },
           {
-            "/": "/suchen/angebote/Aqua Fantasy Aquapark Hotel & Spa/60873/offer/"
+            "/": "/suchen/angebote/$(dev_suchen_angebote)/offer/",
+            "comment": "Open random offers based on the dev_suchen_angebote substitution variable"
           },
           {
-            "/": "/suchen/angebote/Delphin_Imperial/240020/offer/"
-          },
-          {
-            "/": "/suchen/angebote/Hotel Lyttos Beach/20525/offer/"
+            "/": "/suchen/angebote/$(suchen_angebote)/offer/",
+            "comment": "Open random offers based on the suchen_angebote substitution variable"
           },
           {
             "/": "/tui-blue/"
@@ -343,6 +288,39 @@
       }
     ],
     "substitutionVariables": {
+      "suchen_angebote": [
+        "Delphin_Imperial/240020"
+      ],
+      "dev_suchen_angebote": [
+        "Aqua%20Fantasy%20Aquapark%20Hotel%20&%20Spa/60873",
+        "Hotel%20Lyttos%20Beach/20525"
+      ],
+      "packages": [
+
+      ],
+      "dev_packages": [
+        "aegypten",
+        "aegypten/hurghada",
+        "albanien",
+        "all-inclusive",
+        "allinclusive",
+        "checkout",
+        "familienurlaub",
+        "fruehbucher",
+        "griechenland",
+        "griechenland/kreta",
+        "island",
+        "kap-verde",
+        "kroatien",
+        "malediven",
+        "paarurlaub",
+        "sommerurlaub",
+        "spanien/mallorca",
+        "spanien/teneriffa",
+        "tuerkei",
+        "usa/hawaii",
+        "vereinigte-arabische-emirate/dubai"
+      ],
       "offers": [
         "Albatros-Sea-World-Marsa-Alam/27889",
         "Anemos-Luxury-Grand-Resort/434207",

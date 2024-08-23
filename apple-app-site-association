@@ -5,58 +5,14 @@
       {
         "appID": "SEMXTC8MV2.de.tui.tuicom",
         "components": [
-          {
-            "/": "/"
-          },
-          {
-            "/": "/aktionscode/"
-          },
-          {
-            "/": "/flug/"
-          },
-          {
-            "/": "/flug/tuifly/"
-          },
-          {
-            "/": "/flug/webcheckin/select"
-          },
-          {
-            "/": "/hotel/suchen/hotels/Kroatien/1022/list/"
-          },
-          {
-            "/": "/last-minute/"
-          },
-          {
-            "/": "/pauschalreisen/suchen/angebote/$(offers)/offer/",
-            "comment": "Open offers based on the offers substitution variable"
-          },
-          {
-            "/": "/pauschalreisen/suchen/hotels/$(hotels)/list/",
-            "comment": "Open hotels based on the hotels substitution variable"
-          },
-          {
-            "/": "/pauschalreisen/suchen/regionen/"
-          },
-          {
-            "/": "/pauschalreisen/suchen/regionen/$(regions)/",
-            "comment": "Open regions based on the regions substitution variable"
-          },
-          {
-            "/": "/pauschalreisen/suchen/*",
-            "exclude": true
-          },
-          {
-            "/": "/pauschalreisen/*"
-          },
-          {
-            "/": "/suchen/angebote/$(suchen_angebote)/offer/",
-            "comment": "Open random offers based on the suchen_angebote substitution variable"
-          }
         ]
       },
       {
         "appID": "75P9B6J9MN.com.tui.tda.de-tc.dev",
         "components": [
+          {
+            "/": "/*"
+          },
           {
             "/": "/"
           },
